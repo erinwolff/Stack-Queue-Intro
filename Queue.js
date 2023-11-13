@@ -26,7 +26,6 @@ class Queue {
    * @returns {T|undefined}
    */
   dequeue() {
-    // TODO
     return this.arr.shift();
   }
 
