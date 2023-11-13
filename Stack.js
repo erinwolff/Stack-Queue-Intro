@@ -40,11 +40,7 @@ class Stack {
 
   /** @returns {boolean} whether the stack is empty. */
   isEmpty() {
-    if (this.arr.length === 0) {
-      return true;
-    } else {
-      return false;
-    }
+    return this.arr.length === 0;
   }
 
   /** @returns {number} the number of elements in the stack. */

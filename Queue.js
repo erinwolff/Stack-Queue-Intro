@@ -17,7 +17,7 @@ class Queue {
    * @param {T} element
    */
   enqueue(element) {
-    // TODO
+    return this.arr.push(element)
   }
 
   /**
@@ -27,6 +27,7 @@ class Queue {
    */
   dequeue() {
     // TODO
+    return this.arr.shift();
   }
 
   /**
@@ -35,17 +36,17 @@ class Queue {
    * @returns {T|undefined}
    */
   peek() {
-    // TODO
+    return this.arr.at(0);
   }
 
   /** @returns {boolean} whether the queue is empty. */
   isEmpty() {
-    // TODO
+    return this.arr.length === 0;
   }
 
   /** @returns {number} the number of elements in the queue */
   size() {
-    // TODO
+    return this.arr.length;
   }
 }
 
